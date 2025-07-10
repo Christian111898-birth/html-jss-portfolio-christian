@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christian Paul Valdez Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body> 
+    <nav id="desktop-nav">
+        <div class="logo">Christian Paul L. Valdez</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+         <div class="logo">Christian Paul L. Valdez</div>
+         <div class="hamburger-menu">
+         <div class="hamburger-icon" onclick="toggleMenu()">
+         <span></span>
+         <span></span>
+         <span></span>
+         </div>
+         <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+         </div> 
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/6a57b552-a304-4938-bca2-f1471608b959.png" alt="Christian Paul Valdez profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Christian Paul Valdez</h1>
+            <p class="section__text__p2">Programmer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Christian Paul L. Valdez CV.pdf')">
+                    Download CV
+                </button>
+                <button class="btn btn-color-2" onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+                <button class="btn btn-color-2" onclick="window.open('./assets/WasebinFinal.pdf')">
+                    Thesis Program Documentation
+                </button>
+                <button class="btn btn-color-2" onclick="window.open('./assets/FT-CRD-127-01-Integration-Paper-Template.pdf')">
+                    My Internship
+                </button>
+                 <button class="btn btn-color-2" onclick="window.open('./assets/Curriculum Vitae.png')">
+                    My Resumme
+                </button>
+            </div>
+            <div id="socials-container">
+                <img 
+                src="./assets/facebook-icon-free-png.png" 
+                alt="My Facebook Profile" 
+                class="icon" 
+                onclick="location.href='https://web.facebook.com/christian.valdez.48204'">
+                <img 
+                src="./assets/instagram-logo-instagram-icon-transparent-free-png.png" 
+                alt="My Instagram Profile" 
+                class="icon" 
+                onclick="location.href='https://www.instagram.com/christianvaldez1198/'">
+                 <img 
+                src="./assets/github.png" 
+                alt="My Git Hub Profile" 
+                class="icon" 
+                onclick="location.href='https://github.com/Christian111898-birth'">
+            </div>
+        </div>
+         <img 
+        src="./assets/arrow.png" 
+        alt="Arrow icon" 
+        class="icon arrow" 
+        onclick="location.href='./#about'"/>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img 
+                src="./assets/491010800_1399938514474268_5166724606135452557_n.png" 
+                alt="Profile Picture" 
+                class="about-pic"/>
+            </div>
+            <div class="about-details-container">
+             <div class="about-containers">
+                <div class="details-container">
+                    <img 
+                    src="./assets/experience.png" 
+                    alt="Experience icon" 
+                    class="icon"/>
+                    <h3>Experience</h3>
+                    <p>3 months On Job Training <br>Programmer</p>
+                </div>
+                <div class="details-container">
+                    <img 
+                    src="./assets/education.png" 
+                    alt="Education icon" 
+                    class="icon"/>
+                    <h3>Education</h3>
+                    <p>Bachelor of Science in Computer Science Major of Mobile Programming <br>School: STI College San Jose of Nueva Ecija</p>
+                </div>
+             </div>
+             <div class="text-container">
+                <p>Good day to all, My name is Christian Paul L. Valdez, I'm from Nueva Ecija in the Philippines, 
+                    taking up a Computer Science major in Mobile Programming. As a fresh graduate and programmer, 
+                    I have great opportunities here in the Philippines to study, conduct research, and learn how to code and test if it is working. 
+                    Also, I have great communication skills in English and Tagalog to cooperate with other people if something isn’t right. 
+                    Also, I’m a good listener, and when they have suggestions, I’m here to listen and talk about it. 
+                    I’m a good problem solver in code through research and studies in my school. I’m very good at typing documentation and PowerPoint. 
+                    Also, I’m a strong, kind, and brilliant mind that when I have difficulties arise, it is my job to solve them quickly rather than waiting.
+                </p>
+             </div> 
+            </div>
+        </div>
+        <img 
+        src="./assets/arrow.png" 
+        alt="Arrow icon" 
+        class="icon arrow" 
+        onclick="location.href='./#experience'"/>
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Computer Programmer</h2>
+                    <div class="article-container">
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"/>
+                            <div>
+                                <h3>Java</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"/>
+                            <div>
+                                <h3>C#</h3>
+                                <P>Intermediate</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"/>
+                            <div>
+                                <h3>Android Studio</h3>
+                                <P>Intermediate <br> Mobile Develoment</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"/>
+                            <div>
+                                <h3>.NET MAUI</h3>
+                                <P>Intermediate <br> Mobile Development</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"/>
+                            <div>
+                                <h3>Power Apps</h3>
+                                <P>Intermediate <br> Mobile Develoment</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"/>
+                            <div>
+                                <h3>Unity</h3>
+                                <P>Intermediate <br> Game Develoment</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets//checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"/>
+                            <div>
+                                <h3>SQL Develoment</h3>
+                                <P>Intermediate</P>
+                            </div>
+                             <div class="article-container">
+                       
+                        </article>
+                    </div>
+                </div>
+                 <div class="details-container">
+                    <h2 class="experience-sub-title">Microsoft Application and Video Editor</h2>
+                    <div class="article-container">
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"/>
+                            <div>
+                                <h3>Word App</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"/>
+                            <div>
+                                <h3>Excel App</h3>
+                                <P>Intermediate <br> On the Job Training</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"/>
+                            <div>
+                                <h3>Powerpoint App</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets//checkmark.png" 
+                            alt="Experience icon" 
+                            class="icon"/>
+                            <div>
+                                <h3>Filmora</h3>
+                                <P>Basic</P>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img 
+        src="./assets/arrow.png" 
+        alt="Arrow icon" class="icon arrow" 
+        onclick="location.href='./#projects'"/>
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img 
+                    src="./assets/ex220m9d7-excel-logo-microsoft-office-365-excel-logo-free-icon-of-logos-microsoft.png" 
+                    alt="Project 1" 
+                    class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title"> Microsoft Excel Leave Card System of Employee </h2>
+                <div class="btn-container">
+                    <button 
+                    class="btn btn-color-2 project-btn" 
+                    onclick="window.open('./assets/First Project Description.pdf')">
+                        Open Project Description
+                    </button>
+                    <button 
+                    class="btn btn-color-2 project-btn" 
+                    onclick="window.open('./assets/First Project Pictures.pdf')">
+                        Pictures of project
+                    </button>
+                </div>
+            </div>
+             <div class="details-container color-container">
+                <div class="article-container">
+                    <img 
+                    src="./assets/lock-folder-file-png.png" 
+                    alt="Project 1" 
+                    class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title"> File Lock Folder</h2>
+                <div class="btn-container">
+                    <button 
+                    class="btn btn-color-2 project-btn" 
+                    onclick="window.open('./assets/Second Project Description.pdf')">
+                        Open Project Description
+                    </button>
+                    <button 
+                    class="btn btn-color-2 project-btn" 
+                    onclick="window.open('./assets/Second Project Pictures.pdf')">
+                        Pictures of project
+                    </button>
+                </div>
+            </div>
+             <div class="details-container color-container">
+                <div class="article-container">
+                    <img 
+                    src="./assets/Net beans logo.png" 
+                    alt="Project 1" 
+                    class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title"> LGU Lupao HRMO File Locator Search System </h2>
+                <div class="btn-container">
+                    <button 
+                    class="btn btn-color-2 project-btn" 
+                    onclick="window.open('./assets/Third Project Description.pdf')">
+                        Open Project Description
+                    </button>
+                    <button 
+                    class="btn btn-color-2 project-btn" 
+                    onclick="window.open('./assets/Third Project Pictures.pdf')">
+                        Pictures of project
+                    </button>
+                </div>
+            </div>
+        </div>
+        </div>
+        <img 
+        src="./assets/arrow.png" 
+        alt="Arrow icon" 
+        class="icon arrow" 
+        onclick="location.href='./#contact'"/>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img 
+                src="./assets/email.png" 
+                alt="Email icon" 
+                class="icon contact-icon email-icon"/>
+                <p><a href="mailto:valdezchristian111898@gmail.com">valdezchristian111898@gmail.com</a></p>
+            </div>
+             <div class="contact-info-container">
+                <img 
+                src="./assets/images.png" 
+                alt="logo icon" 
+                class="icon contact-icon"/>
+                <p><a href="https://www.onlinejobs.ph/jobseekers/info/3888466">My Online Job App Profile</a></p>
+            </div>
+             <div class="contact-info-container">
+                <img 
+                src="./assets/cellphone number.png" 
+                alt="cellphone icon" 
+                class="icon contact-icon"/>
+                <p>09457980661</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2025 Christian Paul Valdez. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>  
+</body>
+</html>
